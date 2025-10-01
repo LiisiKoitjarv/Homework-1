@@ -81,8 +81,8 @@
 }
 
 /* Create post button */
-.row button {
-    margin: auto;
+.button-row button {
+    margin: 0 auto;
     padding: 10px 40px;
     border: none;
     border-radius: 0;
@@ -91,7 +91,8 @@
     cursor: pointer;
     font-size: 20px;
 }
-.row button:hover {
+
+.button-row button:hover {
     background-color: #244a82;
 }
 
