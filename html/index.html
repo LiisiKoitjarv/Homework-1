@@ -4,75 +4,83 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Home - Posts</title>
-  <link rel="stylesheet" href="indexcss.css" />
+  <!-- linking css -->
+  <link rel="stylesheet" href="../res/css/indexcss.css" />
+  <link rel="stylesheet" href="../res/css/general.css">
 </head>
 <body>
-  <header>
-    <nav class="navbar">
-      <a href="index.html" class="nav-link" id="homeLink">Home</a>
-      <a href="addPost.html" class="nav-link" id="addPostLink">addPost</a>
-    </nav>
+  <!-- header --> 
+  <header class="header">
+      <ul class="nav">
+          <li><a href="index.html" class="nav-link" id="homeLink">Home</a></li>
+          <li><a href="addPost.html" class="nav-link" id="addPostLink">addPost</a></li>
+      </ul>
+      <a class="logo" href="login.html"><img src="../res/images/hw1icon.png" width="50" height="50" alt="My picture"></a>
   </header>
 
+  <!-- page divided into 3 sections -->
   <div class="page-layout">
+    <!-- left sidebar -->
     <aside class="sidebar"> 
     </aside>
 
     <main class="container"> 
-      
+      <!-- first post -->
       <div class="post">
         <div class="post-header">
-          <span class="user-icon">pilt</span>
+          <a class="logo""><img src="../res/images/hw1icon.png" width="50" height="50" alt="My picture"></a>
           <span class="post-date">Oct 22, 2022</span>
         </div>
-        <img src="x" alt="Tartu photo" class="post-image" />
-        <p class="post-text">Tartu 2022</p>
-        <div class="like">x</div>
+        <img src="../res/images/tartuview.jpg" alt="Tartu photo" class="post-image" />
+        <p class="post-text">Tartu 2025!!</p>
+        <a class="like"><img src="../res/images/like.png" width="30" height="30" alt="like"></a>
       </div>
-
+      <!-- second post -->
       <div class="post">
         <div class="post-header">
-          <span class="user-icon">pilt</span>
+          <a class="logo"><img src="../res/images/hw1icon.png" width="50" height="50" alt="My picture"></a>
           <span class="post-date">Oct 2, 2022</span>
         </div>
         <p class="post-text">Anyone knows in which room is the lab today?</p>
-        <div class="like">x</div>
+        <a class="like"><img src="../res/images/like.png" width="30" height="30" alt="like"></a>
       </div>
-
+      <!-- third post -->
       <div class="post">
         <div class="post-header">
-          <span class="user-icon">pilt</span>
+          <a class="logo"><img src="../res/images/hw1icon.png" width="50" height="50" alt="My picture"></a>
           <span class="post-date">Sep 30, 2022</span>
         </div>
-        <img src="x" alt="Street view" class="post-image" />
+        <img src="../res/images/streetart.jpg" alt="Street view" class="post-image" />
         <p class="post-text">Street art in Tartu!</p>
-        <div class="like">x</div>
+        <a class="like"><img src="../res/images/like.png" width="30" height="30" alt="like"></a>
       </div>
-
+      <!-- fourth post -->
       <div class="post">
         <div class="post-header">
-          <span class="user-icon">pilt</span>
+          <a class="logo"><img src="../res/images/hw1icon.png" width="50" height="50" alt="My picture"></a>
           <span class="post-date">Sep 25, 2022</span>
         </div>
         <p class="post-text">No class next Monday </p>
-        <div class="like">x</div>
+        <a class="like"><img src="../res/images/like.png" width="30" height="30" alt="like"></a>
       </div>
-
+      <!-- fifth post -->
       <div class="post">
         <div class="post-header">
-          <span class="user-icon">pilt</span>
+          <a class="logo"><img src="../res/images/hw1icon.png" width="50" height="50" alt="My picture"></a>
           <span class="post-date">Sep 20, 2022</span>
         </div>
-        <img src="x" alt="Nature" class="post-image" />
+        <img src="../res/images/nature.jpg" alt="Nature" class="post-image" />
         <p class="post-text">Look at that view!</p>
-        <div class="like">x</div>
+        <a class="like"><img src="../res/images/like.png" width="30" height="30" alt="like"></a>
       </div>
     </main>
 
+    <!-- right sidebar -->
     <aside class="sidebar">
     </aside>
   </div>
 
+  <!-- footer -->
   <footer class="footer"></footer>
 </body>
 </html>
