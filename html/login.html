@@ -17,26 +17,27 @@
         <a class="logo" href="#"><img src="../res/images/hw1icon.png" width="50" height="50" alt="My picture"></a>
     </header>
 
+    <main class="main">
+        <div class="loginbox" style="padding-bottom: 10px;">
+            <p class="welcome"> Welcome to PostIt </p>
+            <p id="blue"> Create an account </p>
+            <p> or </p>
+            <p> Please log in </p>
 
-    <div class="loginbox" style="padding-bottom: 10px;">
-        <p class="welcome"> Welcome to PostIt </p>
-        <p id="blue"> Create an account </p>
-        <p> or </p>
-        <p> Please log in </p>
+            <!-- checking if the form is valid using JS -->
+            <form onsubmit="return false;">
+                <input type="text" name="email" id="email" placeholder="Email" required>
+                <p></p>
 
-        <!-- checking if the form is valid using JS -->
-        <form onsubmit="return false;">
-            <input type="text" name="email" id="email" placeholder="Email" required>
-            <p></p>
+                <input type="password" name="password" id="password" placeholder="Password" required>
+                <p></p>
 
-            <input type="password" name="password" id="password" placeholder="Password" required>
-            <p></p>
+                <button type="button" onclick="validateForm()">Log in</button>
+            </form>
 
-            <button type="button" onclick="validateForm()">Log in</button>
-        </form>
-
-        <p id="blue"> Forgot password </p>
-    </div>
+            <p id="blue"> Forgot password </p>
+        </div>
+    </main>
 
     <!-- linking JS script -->
     <script type="text/javascript" src="../res/js/loginjs.js"></script>
