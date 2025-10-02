@@ -2,9 +2,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HW1 login</title>
+    <!-- linking css -->
+    <link rel="stylesheet" href="../res/css/general.css">
     <link rel="stylesheet" href="../res/css/logincss.css">
 </head>
 
@@ -19,33 +19,27 @@
 
 
     <div class="loginbox" style="padding-bottom: 10px;">
-
         <p class="welcome"> Welcome to PostIt </p>
-
-        <p class="blue"> Create an account </p>
-
+        <p id="blue"> Create an account </p>
         <p> or </p>
-
         <p> Please log in </p>
 
-        <input type="text" name="email" id="email" placeholder="Email">
-        <p></p>
+        <!-- checking if the form is valid using JS -->
+        <form onsubmit="return false;">
+            <input type="text" name="email" id="email" placeholder="Email" required>
+            <p></p>
 
-        <input type="text" name="password" id="password" placeholder="Password">
-        <p></p>
+            <input type="password" name="password" id="password" placeholder="Password" required>
+            <p></p>
 
-        <button name="Log in" onclick="location.href= 'index.html'">Log in</button>
+            <button type="button" onclick="validateForm()">Log in</button>
+        </form>
 
-        <p class="blue"> Forget password </p>
-    
+        <p id="blue"> Forgot password </p>
     </div>
 
-
-
-
-    <footer class="footer">
-    </footer>
-
+    <!-- linking JS script -->
+    <script type="text/javascript" src="../res/js/loginjs.js"></script>
 
 </body>
 

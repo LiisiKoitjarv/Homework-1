@@ -1,43 +1,4 @@
-.header {
-    padding-top: .5em;
-    padding-bottom: .5em;
-    background-color: #aaaeb0;
-    position: static;
-    width: 100%;
-    border-radius: 15px;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    }
-
-.logo {
-    padding: 0 20px;
-}
-
-.nav {
-    margin-top: 5px;
-    margin-left: 15px;
-     }
-
-.nav a {
-    padding: 10px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    color: #000000;
-    font-size: 1.1em;
-       }
-
-/* Pseudo-class selector */
-.nav a:hover {
-    background-color: #c5c6c6;
-    border-radius: 5px;
-    color: #000000;
-             }
-
+/* general login area style */
 .loginbox {
     background-color: #cdcecf;
     border-radius: 15px;
@@ -46,15 +7,23 @@ ul {
     margin-right: auto;
     width: 20em;
 }
+
 .welcome {
     font-weight: bold;
     padding-top: 20px;
     font-size: 1.1em;
 }
-.blue {
+
+.welcome::first-letter{
+    font-size: 1.11em;
+}
+
+#blue {
     color: #4cc1e4;
 }
-div button{
+
+/* 'Log in' button style */
+form button{
     background-color: #163874;
     color: #ffffff;
     box-shadow: none;
@@ -66,18 +35,14 @@ div button{
     padding-bottom: 5px;
 }
 
-div > button:hover {
+div > form > button:hover {
     background-color: #2352a3;
 }
 
- @media (min-width: 300px) {
-        .header,
-        .nav {
-            display: flex;
-            }
-        .header {
-            flex-direction: row;
-            justify-content: space-between;
-            }
-        }
+p ~ p {
+    font-size: 1.01em;
+}
 
+p + p {
+    padding-bottom: 2px;
+}
