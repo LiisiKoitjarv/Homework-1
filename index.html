@@ -15,7 +15,18 @@
           <li><a href="index.html" class="nav-link" id="homeLink">Home</a></li>
           <li><a href="addPost.html" class="nav-link" id="addPostLink">addPost</a></li>
       </ul>
-      <a class="logo" href="login.html"><img src="res/images/hw1icon.png" width="50" height="50" alt="My picture"></a>
+      <!-- <a class="logo" href="login.html"><img src="res/images/hw1icon.png" width="50" height="50" alt="My picture"></a>-->
+      <div class="profile-menu">
+        <button class="profile-btn">
+          <img src="res/images/hw1icon.png" width="50" height="50" alt="My picture" class="logo">
+        </button>
+
+        <div class="dropdown hidden">
+          <a>John Doe</a>
+          <a>john.doe@ut.ee</a>
+          <a id="logout" href="login.html">Logout</a>
+        </div>
+      </div>
   </header>
 
   <!-- page divided into 3 sections -->
@@ -83,6 +94,8 @@
   <!-- footer -->
   <footer class="footer"></footer>
   <script src="res/js/posts.js"></script>
+  <script src="res/js/menu.js"></script>
+
 
 </body>
 </html>

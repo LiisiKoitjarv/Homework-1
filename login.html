@@ -14,7 +14,18 @@
         <ul class="nav">
             <li><a href="index.html">Home</a></li>
         </ul>
-        <a class="logo" href="#"><img src="res/images/hw1icon.png" width="50" height="50" alt="My picture"></a>
+        <!-- <a class="logo" href="#"><img src="res/images/hw1icon.png" width="50" height="50" alt="My picture"></a> -->
+        <div class="profile-menu">
+            <button class="profile-btn">
+            <img src="res/images/hw1icon.png" width="50" height="50" alt="My picture" class="logo">
+            </button>
+
+            <div class="dropdown hidden">
+            <a>John Doe</a>
+            <a>john.doe@ut.ee</a>
+            <a id="logout" href="login.html">Logout</a>
+            </div>
+        </div>
     </header>
 
     <main class="main">
@@ -41,6 +52,8 @@
 
     <!-- linking JS script -->
     <script type="text/javascript" src="res/js/loginjs.js"></script>
+    <script src="res/js/menu.js"></script>
+
 
 </body>
 
