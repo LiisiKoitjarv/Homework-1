@@ -3,13 +3,14 @@
     justify-content: center;
     align-items: center;
     padding-top: 100px;
+    background-color: aliceblue;
 }
 
 /* general login area style */
 .loginbox {
     width: 500px;
     height: 500px;
-    background-color: lightgray;
+    background-color: white;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -17,6 +18,7 @@
     align-items: center;
     padding: 20px;
     text-align: center;
+    font-family: monospace;
 }
 
 .welcome {

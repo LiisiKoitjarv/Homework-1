@@ -1,8 +1,8 @@
 window.onload = function() {
+    //fetch("https://api.npoint.io/7982a148864c6424dc4b")
     fetch("res/css/myjson.json")
     .then((response) => response.json())
     .then(json => {
-        console.log(json);
         for (let i = 0; i < json.length; i++) {
             // create div for the post
             let post = document.createElement("div");
@@ -22,6 +22,30 @@ window.onload = function() {
             logoImg.alt = "logo";
             logo.appendChild(logoImg);
 
+            // set author's profile picture
+            let authorImg = document.createElement("a");
+            authorImg.className = "authorImg";
+            if (json[i].logo !== null) { // if there is a picture -> add it as profile pic
+                let logoImg = document.createElement("img");
+                logoImg.src = json[i].logo;
+                logoImg.width = 50;
+                logoImg.height = 50;
+                logoImg.alt = "authorImg";
+                authorImg.appendChild(logoImg);
+            }
+
+            // set username
+            let author = document.createElement("p");
+            author.className = "username";
+            author.innerText = json[i].author;
+            post.appendChild(author);
+
+            // poster's username + image
+            let authorInfo = this.document.createElement("div");
+            authorInfo.className = "authorInfo";
+            authorInfo.appendChild(authorImg);
+            authorInfo.appendChild(author);
+
             // create elem for date
             let date = document.createElement("span");
             date.className = "post-date";
@@ -31,7 +55,7 @@ window.onload = function() {
             day: "numeric"
             });
 
-            header.appendChild(logo);
+            header.appendChild(authorInfo);
             header.appendChild(date);
             post.appendChild(header);
 

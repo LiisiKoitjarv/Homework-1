@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "logo":"https://static.vecteezy.com/system/resources/previews/013/409/013/non_2x/golden-star-gold-illustration-design-vector.jpg",
     "author": "nova.star_01",
     "created_at": "2025-09-10T13:45:00.000Z",
     "text": "Tartu 2025!",
@@ -8,6 +9,7 @@
   },
   {
     "id": 2,
+    "logo": "https://cdn.pixabay.com/photo/2024/10/17/09/53/lo-fi-9127171_1280.png",
     "author": "pixel.master",
     "created_at": "2025-09-10T15:24:35.000Z",
     "text": "Look at that view!",
@@ -15,6 +17,7 @@
   },
   {
     "id": 3,
+    "logo": "https://static.vecteezy.com/system/resources/thumbnails/049/433/052/small/bold-and-stylized-wolf-head-logo-with-a-sharp-blue-color-scheme-free-vector.jpg",
     "author": "shadow_wolf99",
     "created_at": "2025-09-11T08:52:55.000Z",
     "text": "Anyone knows in which room is the lab today?",
@@ -22,6 +25,7 @@
   },
     {
     "id": 4,
+    "logo":"https://images.stockcake.com/public/3/9/a/39a3b87b-7c3b-4144-af2e-f06111543860_large/geometric-moon-glow-stockcake.jpg",
     "author": "blue.moon_7",
     "created_at": "2025-09-13T10:15:37.000Z",
     "text": "Street art in Tartu!",
@@ -29,6 +33,7 @@
   },
   {
     "id": 5,
+    "logo": "https://cdn.pixabay.com/photo/2013/07/13/10/50/hal-157883_1280.png",
     "author": "neo.cyber_2025",
     "created_at": "2025-09-15T20:46:21.000Z",
     "text": "No class next Monday",
@@ -36,6 +41,7 @@
   },
   {
     "id": 6,
+    "logo": "https://cdn.pixabay.com/photo/2020/09/09/13/03/bike-riding-5557589_1280.png",
     "author": "storm.rider_",
     "created_at": "2025-09-20T16:32:25.000Z",
     "text": "Best way to survive a long lecture: coffee, notes, and a cozy café corner",
@@ -43,6 +49,7 @@
   },
   {
     "id": 7,
+    "logo": "https://cdn.pixabay.com/photo/2016/05/28/05/37/sunflower-1421011_1280.jpg",
     "author": "lucky.me22",
     "created_at": "2025-09-28T06:47:55.000Z",
     "text": "Short walk around the campus between classes — the autumn colors in Tartu are lovely.",
@@ -50,6 +57,7 @@
   },
   {
     "id": 8,
+    "logo":"https://cdn.pixabay.com/photo/2022/11/03/15/24/coffee-7567749_1280.jpg",
     "author": "_coffee.code",
     "created_at": "2025-10-01T17:11:07.000Z",
     "text": "Can someone help me with my math homework?",
@@ -57,6 +65,7 @@
   },
   {
     "id": 9,
+    "logo":"https://cdn.pixabay.com/photo/2016/11/29/03/51/book-1867171_1280.jpg",
     "author": "midnight.owl.3",
     "created_at": "2025-10-08T22:39:03.000Z",
     "text": "Give good cafe recommendations in Tartu!",
@@ -64,6 +73,7 @@
   },
   {
     "id": 10,
+    "logo": "https://cdn.pixabay.com/photo/2015/07/27/19/53/hipster-863370_1280.jpg",
     "author": "sunny_day.88",
     "created_at": "2025-10-12T13:02:40.000Z",
     "text": "My favorite - Karlova Kohv",

@@ -5,25 +5,10 @@
 }
 
 body {
-  background-color: #f0f0f0;
+  background-color: aliceblue;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-}
-
-/* Page Layout */
-.page-layout {
-  display: flex;
-  flex: 1;
-}
-
-.sidebar {
-  background-color: #dcdcdc;
-  width: 15%;
-  padding: 20px;
-  text-align: center;
-  font-size: 14px;
-  line-height: 1.5;
 }
 
 .container {
@@ -40,6 +25,7 @@ body {
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: monospace;
 }
 
 .post-header {
@@ -62,9 +48,23 @@ body {
   margin-bottom: 10px;
 }
 
+.authorInfo {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.authorInfo img {
+  border-radius: 50%;
+}
+
+.logo img {
+  border-radius: 50%;
+}
+
 /* Footer */
 .footer {
-  background-color: #ccc;
+  background-color: aliceblue;
   text-align: center;
   padding: 15px;
 }
